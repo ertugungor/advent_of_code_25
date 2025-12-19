@@ -1,0 +1,5 @@
+build/
+puzzles/*/long.txt
+puzzles/*/short.txt
+puzzles/python/*/long.txt
+puzzles/python/*/short.txt
