@@ -62,11 +62,13 @@ class UnionFind
         {
             parent[root_x] = root_y;
             size[root_y] += size[root_x];
+            size[root_x] = 0;
         }
         else
         {
             parent[root_y] = root_x;
             size[root_x] += size[root_y];
+            size[root_y] = 0;
         }
         --num_components;
         return true;
